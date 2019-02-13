@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83A30DB722139E8700955DB1 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A30DB622139E8700955DB1 /* Coordinator.swift */; };
+		83A30DB922139ED200955DB1 /* ScreenContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A30DB822139ED200955DB1 /* ScreenContainerViewController.swift */; };
+		83A30DBD2213A12D00955DB1 /* TrainStatusScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A30DBC2213A12D00955DB1 /* TrainStatusScreenCoordinator.swift */; };
+		83A30DBF2213A1D400955DB1 /* TrainScheduleScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A30DBE2213A1D400955DB1 /* TrainScheduleScreenCoordinator.swift */; };
+		83A30DC12213A68F00955DB1 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A30DC02213A68F00955DB1 /* LoadingViewController.swift */; };
+		83A30DC52213AA6400955DB1 /* TrainSearchCriteriaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A30DC42213AA6400955DB1 /* TrainSearchCriteriaViewController.swift */; };
+		83A30DC72213AFE300955DB1 /* TrainScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A30DC62213AFE300955DB1 /* TrainScheduleViewController.swift */; };
+		83A30DC92213B8C400955DB1 /* TrainSearchCriteriaScreenCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A30DC82213B8C300955DB1 /* TrainSearchCriteriaScreenCoordinator.swift */; };
+		83A30DCB2213B9F700955DB1 /* TrainStatusDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A30DCA2213B9F700955DB1 /* TrainStatusDataService.swift */; };
+		83A30DCD2213C5A000955DB1 /* TrainStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A30DCC2213C5A000955DB1 /* TrainStatusViewController.swift */; };
 		83D9B0CF2213950F00DABA02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D9B0CE2213950F00DABA02 /* AppDelegate.swift */; };
-		83D9B0D12213950F00DABA02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D9B0D02213950F00DABA02 /* ViewController.swift */; };
 		83D9B0D42213950F00DABA02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D9B0D22213950F00DABA02 /* Main.storyboard */; };
 		83D9B0D62213951000DABA02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D9B0D52213951000DABA02 /* Assets.xcassets */; };
 		83D9B0D92213951000DABA02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D9B0D72213951000DABA02 /* LaunchScreen.storyboard */; };
 		83D9B0E42213951000DABA02 /* SLE_HelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D9B0E32213951000DABA02 /* SLE_HelperTests.swift */; };
 		83D9B0EF2213951000DABA02 /* SLE_HelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D9B0EE2213951000DABA02 /* SLE_HelperUITests.swift */; };
+		83D9B0FE22139CCC00DABA02 /* TrainStatusFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D9B0FD22139CCC00DABA02 /* TrainStatusFlowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83A30DB622139E8700955DB1 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		83A30DB822139ED200955DB1 /* ScreenContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenContainerViewController.swift; sourceTree = "<group>"; };
+		83A30DBC2213A12D00955DB1 /* TrainStatusScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainStatusScreenCoordinator.swift; sourceTree = "<group>"; };
+		83A30DBE2213A1D400955DB1 /* TrainScheduleScreenCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainScheduleScreenCoordinator.swift; sourceTree = "<group>"; };
+		83A30DC02213A68F00955DB1 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		83A30DC42213AA6400955DB1 /* TrainSearchCriteriaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainSearchCriteriaViewController.swift; sourceTree = "<group>"; };
+		83A30DC62213AFE300955DB1 /* TrainScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainScheduleViewController.swift; sourceTree = "<group>"; };
+		83A30DC82213B8C300955DB1 /* TrainSearchCriteriaScreenCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainSearchCriteriaScreenCoordinator.swift; sourceTree = "<group>"; };
+		83A30DCA2213B9F700955DB1 /* TrainStatusDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainStatusDataService.swift; sourceTree = "<group>"; };
+		83A30DCC2213C5A000955DB1 /* TrainStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainStatusViewController.swift; sourceTree = "<group>"; };
 		83D9B0CB2213950F00DABA02 /* SLE Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SLE Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D9B0CE2213950F00DABA02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83D9B0D02213950F00DABA02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		83D9B0D32213950F00DABA02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83D9B0D52213951000DABA02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83D9B0D82213951000DABA02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +66,7 @@
 		83D9B0EA2213951000DABA02 /* SLE HelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SLE HelperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D9B0EE2213951000DABA02 /* SLE_HelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLE_HelperUITests.swift; sourceTree = "<group>"; };
 		83D9B0F02213951000DABA02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83D9B0FD22139CCC00DABA02 /* TrainStatusFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainStatusFlowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +117,22 @@
 		83D9B0CD2213950F00DABA02 /* SLE Helper */ = {
 			isa = PBXGroup;
 			children = (
+				83D9B0FD22139CCC00DABA02 /* TrainStatusFlowController.swift */,
+				83A30DBC2213A12D00955DB1 /* TrainStatusScreenCoordinator.swift */,
 				83D9B0CE2213950F00DABA02 /* AppDelegate.swift */,
-				83D9B0D02213950F00DABA02 /* ViewController.swift */,
 				83D9B0D22213950F00DABA02 /* Main.storyboard */,
 				83D9B0D52213951000DABA02 /* Assets.xcassets */,
 				83D9B0D72213951000DABA02 /* LaunchScreen.storyboard */,
 				83D9B0DA2213951000DABA02 /* Info.plist */,
+				83A30DB622139E8700955DB1 /* Coordinator.swift */,
+				83A30DB822139ED200955DB1 /* ScreenContainerViewController.swift */,
+				83A30DBE2213A1D400955DB1 /* TrainScheduleScreenCoordinator.swift */,
+				83A30DC02213A68F00955DB1 /* LoadingViewController.swift */,
+				83A30DC42213AA6400955DB1 /* TrainSearchCriteriaViewController.swift */,
+				83A30DC82213B8C300955DB1 /* TrainSearchCriteriaScreenCoordinator.swift */,
+				83A30DC62213AFE300955DB1 /* TrainScheduleViewController.swift */,
+				83A30DCA2213B9F700955DB1 /* TrainStatusDataService.swift */,
+				83A30DCC2213C5A000955DB1 /* TrainStatusViewController.swift */,
 			);
 			path = "SLE Helper";
 			sourceTree = "<group>";
@@ -256,8 +286,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83D9B0D12213950F00DABA02 /* ViewController.swift in Sources */,
+				83A30DB722139E8700955DB1 /* Coordinator.swift in Sources */,
+				83D9B0FE22139CCC00DABA02 /* TrainStatusFlowController.swift in Sources */,
+				83A30DC92213B8C400955DB1 /* TrainSearchCriteriaScreenCoordinator.swift in Sources */,
+				83A30DBD2213A12D00955DB1 /* TrainStatusScreenCoordinator.swift in Sources */,
+				83A30DC52213AA6400955DB1 /* TrainSearchCriteriaViewController.swift in Sources */,
+				83A30DCB2213B9F700955DB1 /* TrainStatusDataService.swift in Sources */,
+				83A30DC12213A68F00955DB1 /* LoadingViewController.swift in Sources */,
 				83D9B0CF2213950F00DABA02 /* AppDelegate.swift in Sources */,
+				83A30DBF2213A1D400955DB1 /* TrainScheduleScreenCoordinator.swift in Sources */,
+				83A30DCD2213C5A000955DB1 /* TrainStatusViewController.swift in Sources */,
+				83A30DC72213AFE300955DB1 /* TrainScheduleViewController.swift in Sources */,
+				83A30DB922139ED200955DB1 /* ScreenContainerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
